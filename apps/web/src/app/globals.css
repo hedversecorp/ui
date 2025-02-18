@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --orange-gradient: linear-gradient(to right, #f97316, #8b5cf6);
+}
+
+body {
+  background: black;
+  color: white;
+}
+
+html {
+  scroll-behavior: smooth;
+}
