@@ -1,0 +1,50 @@
+{
+  "name": "@hedverse-ui/native-progress",
+  "publishConfig": {
+    "access": "public"
+  },
+  "version": "1.0.0",
+  "description": "Progress components for React Native applications",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "clean": "rm -rf lib",
+    "prepare": "npm run build"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-native": ">=0.70.0",
+    "react-native-reanimated": ">=3.0.0",
+    "react-native-svg": ">=13.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-native": "^0.70.0",
+    "typescript": "^4.9.5"
+  },
+  "keywords": [
+    "react-native",
+    "progress",
+    "circular-progress",
+    "ui",
+    "hedverse-ui"
+  ],
+  "author": "Hedverse Team <team@hedverse.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hedversecorp/ui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hedversecorp/ui/issues"
+  },
+  "homepage": "https://ui.hedverse.com",
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
