@@ -1,10 +1,10 @@
 {
-  "name": "@hedverse-ui/native-progress",
+  "name": "@hedverse-ui/native-circular-progress",
   "publishConfig": {
     "access": "public"
   },
-  "version": "1.1.0",
-  "description": "Progress components for React Native applications",
+  "version": "1.0.0",
+  "description": "Animated circular progress component for React Native applications with customizable properties",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "files": [
@@ -29,10 +29,15 @@
   },
   "keywords": [
     "react-native",
-    "progress",
     "circular-progress",
-    "ui",
-    "hedverse-ui"
+    "progress-circle",
+    "animated-progress",
+    "svg-progress",
+    "react-native-progress",
+    "ui-components",
+    "hedverse-ui",
+    "animated",
+    "circular"
   ],
   "author": "Hedverse Team <team@hedverse.com>",
   "license": "MIT",
