@@ -1,0 +1,23 @@
+{
+  "name": "hedverse-ui",
+  "version": "1.0.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "clean": "turbo run clean",
+    "version-packages": "changeset version",
+    "release": "changeset publish"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@changesets/cli": "^2.28.0",
+    "turbo": "^2.4.2",
+    "typescript": "^5.7.3"
+  }
+}
